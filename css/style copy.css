@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --colortextos: #293241;
+    --colorprincipal: #293241;
+    --colorbotones: #fe0000;
+    --colorfondo: #fe0000;
+    --paddingsecciones: 30px 0px 20px 10px;
+    --marginelementos: 40px;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+    background-color: #E1FBFC;
+    box-sizing: border-box;
+  }
+
+  /* SECCIÓN DE ESTILO DEL HEADER   */
+  .header {
+    padding: 20px 20px 0px 20px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    background: var(--colorprincipal);
+    font-size: 30px;
+    box-sizing: border-box;
+  }
+  .menu-navegacion {
+    padding: 20px 20px 0px 20px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 110px;
+    align-items: center;
+  }
+  .logo_investigandot {
+    padding: 20px;
+    box-sizing: border-box;
+
+  }
+  .instagram_investigadot {
+    color: #ee6b4d;
+  }
+  /* FIN DE LA SECCIÓN DE ESTILO DEL HEADER */
+
+  /* SECCIÓN DE ESTILO DEL BANNER PRINCIPAL */
+  .banner_principal{
+    padding: 30px 0px 30px 30px;
+    /* margin:auto; */
+    height: 130px;
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    color: var(--colortextos)
+  }
+  .banner_principal_texto{
+
+    font-size: 20px;;
+    text-align: left;
+    font-weight: 600;
+  }
+  .banner_principal_subtexto{
+    font-size: 20px;
+    text-align: left;
+    font-weight: 300;
+  }
+  /* FIN DE LA SECCIÓN DE ESTILO DEL BANNER PRINCIPAL */
+
+  /* SECCIÓN IMG Y FORMULARIO PÁGINA PRINCIPAL */    
+  .imagen_homescreen{
+    position: inherit;
+    display: flex;
+    box-sizing: border-box;
+    margin:0px;
+    appearance: none;
+    text-size-adjust: 100%;
+    border: 0px;
+    font-weight: inherit;
+    outline: 0px;
+    padding: 0px;
+    text-rendering: optimizelegibility;
+    align-content: center;
+  }
+  .main_image_container{
+    overflow: 0;
+    display: block;
+    order:1;
+    width: 65%;
+  }
+  .imagen_principal{
+    display: block;
+    width: 100%;
+    margin: 0px;
+    opacity: 75%;
+  }
+  .info_survey_1{
+    background-color: var(--colorprincipal);
+    padding: 140px;
+    text-align: center;
+    width: 35%;
+    display: block;
+    order:2;
+    margin: 0px;
+    align-content: center;
+    color: #E1FBFC;
+  }  
+    .call_survey{
+        font-size: 30px;;
+        text-align: center;
+        font-weight: 600;
+        color: #E1FBFC;
+    }
+    .btn{
+        background-color: #ee6b4d;
+        font-family: "Lato", sans-serif;
+
+    }
+    .info_survey_2{
+        font-size: 20px;;
+        text-align: center;
+        font-weight: 100;
+        color: #E1FBFC;
+    }
+  /* FIN DE SECCIÓN IMG Y FORMULARIO PÁGINA PRINCIPAL */
+
+  /* TESTIMONIOS */
+  .testimonios{
+    padding: 30px 0px 30px 30px;
+    /* margin:auto; */
+    height: 600px;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    color: var(--colortextos)
+  }
+  .testimonios_texto{
+    padding: 200PX;
+    font-size: 20px;;
+    text-align: center;
+    font-weight: 100;
+  }
+  .testimonios_subtexto{
+    font-size: 20px;
+    text-align: left;
+    font-weight: 300;
+  }
+  /* FIN TESTIMONIOS */
+
+  /* SECCIÓN FOOTERL */
+  .footer{
+    padding: 20px;
+    background-color: var(--colorprincipal);
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 2.5rem;
+    -webkit-box-pack: justify;
+    display: flex;
+    padding: 0px;
+    row-gap: 1rem;
+  }
+  .referencia_final_footer {
+    padding: var(--paddingsecciones);
+    box-sizing: border-box;
+    margin: 0px;
+    -webkit-font-smoothing: antialiased;
+    appearance: none;
+    text-size-adjust: 100%;
+    border: 0px;
+    font-weight: inherit;
+    outline: 0px;
+    text-rendering: optimizelegibility;
+  }
+  .info_empresa_footer{
+    font-family: "Lato", sans-serif;
+    padding: 0px 0px 0px 5px;
+    color: #E1FBFC;
+    margin: 0px;
+    letter-spacing: -0.01em;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  /* FIN DE SECCIÓN FOOTER */
+
